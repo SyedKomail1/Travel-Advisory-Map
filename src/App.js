@@ -55,7 +55,6 @@ const App = () => {
   const onPlaceChanged = () => {
     const lat = autocomplete.getPlace().geometry.location.lat();
     const lng = autocomplete.getPlace().geometry.location.lng();
-
     setCoords({ lat, lng });
   };
 
@@ -87,6 +86,7 @@ const App = () => {
         </Grid>
       </Grid>
     </>
+
   );
 };
 
